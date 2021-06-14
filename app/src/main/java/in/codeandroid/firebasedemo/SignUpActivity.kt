@@ -49,7 +49,7 @@ class SignUpActivity : AppCompatActivity() {
                     startActivity(Intent(this,LoginActivity::class.java))
                     finish()
                 } else {
-                    Toast.makeText(baseContext, "Sign Up failed. Try again after some time.",
+                    Toast.makeText(baseContext, "Sign Up failed.",
                         Toast.LENGTH_SHORT).show()
                 }
             }
